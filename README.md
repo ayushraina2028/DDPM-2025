@@ -15,6 +15,7 @@ A PyTorch implementation of Denoising Diffusion Probabilistic Models (DDPM) from
 - **Pre-trained Models**: Includes trained models for MNIST and AFHQ datasets
 
 ## 📁 Project Structure
+Download the model weights for AFHQ from [here](https://drive.google.com/file/d/15moXiLwrs0lr2vl991Lj-IGvJauwlQU-/view?usp=sharing) and MNIST from [here](https://drive.google.com/file/d/1OeT1MvDtRV80xevrSJtyuXxP_zGBNfFh/view?usp=sharing) and keep those in their respective directories, so that the final project structure looks like as shown below:
 
 ```
 ddpm_pipeline/
@@ -243,12 +244,6 @@ model.eval()
 - **Accelerated Sampling**: Custom DDIM variants for faster generation
 - **Flexible Architecture**: Configurable U-Net depth and channel sizes
 - **Progress Visualization**: Real-time training progress monitoring
-
-## 📚 References
-
-1. Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. NeurIPS.
-2. Song, J., Meng, C., & Ermon, S. (2020). Denoising Diffusion Implicit Models. ICLR.
-3. Nichol, A., & Dhariwal, P. (2021). Improved Denoising Diffusion Probabilistic Models. ICML.
 
 ## 🤝 Contributing
 
